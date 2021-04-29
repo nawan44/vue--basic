@@ -1,9 +1,6 @@
 <template>
   <div id="app">
     <router-view />
-
-    <img src="./assets/logo.png" />
-    <router-link to="/login">LOGINss</router-link>
   </div>
 </template>
 
@@ -14,6 +11,10 @@ export default {
 </script>
 
 <style>
+* {
+  margin: 0;
+  padding: 0;
+}
 #app {
   font-family: "Avenir", Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -21,5 +22,7 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 10px;
+  margin: 0;
+  padding: 0;
 }
 </style>
